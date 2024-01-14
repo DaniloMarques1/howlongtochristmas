@@ -7,7 +7,7 @@ function howLongToChristmas() {
   const remainedDaysHours = remainedDaysMinutes / 60;
   const remainedDays = remainedDaysHours / 24;
 
-  return Math.ceil(remainedDays);
+  return Math.round(remainedDays);
 }
 
 function run() {
